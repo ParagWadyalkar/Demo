@@ -21,7 +21,7 @@ public class MangeTest {
 		options.setExperimentalOption("prefs", prefs);
 //		WebDriverManager.chromedriver().setup();
 //		/usr/bin/google-chrome  /usr/share/man/man1/google-chrome.1.gz
-		System.setProperty("webdriver.chrome.driver", "D:\\ed\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
 		// System.setProperty("webdriver.chrome.driver",
 		// "D:\\ed\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver(options);

@@ -2,26 +2,30 @@ package Book.book;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
 
-public class Mange {
+public class MangeTest {
 
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void run() throws InterruptedException {
+//	public static void main(String[] args) throws InterruptedException {
 		ChromeOptions options = new ChromeOptions();
 		Map<String, Object> prefs = new HashMap<>();
 		prefs.put("profile.default_content_setting_values.notifications", 1);
 		// 1-Allow, 2-Block, 0-default
 		options.setExperimentalOption("prefs", prefs);
-		// WebDriverManager.chromedriver().setup();
-
+//		WebDriverManager.chromedriver().setup();
 //		/usr/bin/google-chrome  /usr/share/man/man1/google-chrome.1.gz
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+		System.setProperty("webdriver.chrome.driver", "D:\\ed\\chromedriver_win32\\chromedriver.exe");
+		// System.setProperty("webdriver.chrome.driver",
+		// "D:\\ed\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver(options);
+
 		driver.manage().window().maximize();
 		driver.get("https://dev.managemedias.com/login");
 		driver.findElement(By.name("email")).sendKeys("vishwas.panke@selftech.in");

@@ -29,32 +29,32 @@ public class MangeTest {
 
 		
 		//add commits stackover
-//		options.addArguments("--disable-background-networking"); // Bypass OS security model
-//		options.addArguments("--disable-background-timer-throttling"); // Bypass OS security model
-//		options.addArguments("--disable-client-side-phishing-detection"); // Bypass OS security model
-//		options.addArguments("--disable-default-apps"); // Bypass OS security model
-//		options.addArguments("--disable-extensions"); // Bypass OS security model
-//		options.addArguments("--disable-hang-monitor"); // Bypass OS security model
-//		options.addArguments("--disable-popup-blocking"); // Bypass OS security model
-//		options.addArguments("--disable-prompt-on-repost"); // Bypass OS security model
-//		options.addArguments("--disable-sync"); // Bypass OS security model
-//		options.addArguments("--disable-translate"); // Bypass OS security model
-//		options.addArguments("--metrics-recording-only"); // Bypass OS security model
-//		options.addArguments("--no-first-run"); // Bypass OS security model
-//		options.addArguments("--remote-debugging-port=0"); // Bypass OS security model
-//		options.addArguments("--safebrowsing-disable-auto-update"); // Bypass OS security model
-//		options.addArguments("--enable-automation"); // Bypass OS security model
-//		options.addArguments("--password-store=basic"); // Bypass OS security model
-//		options.addArguments("--use-mock-keychain"); // Bypass OS security model
-//		options.addArguments("--disable-gpu"); // Bypass OS security model
-//		options.addArguments("--headless"); // Bypass OS security model
-//		options.addArguments("--hide-scrollbars"); // Bypass OS security model
-//		options.addArguments("--mute-audio"); // Bypass OS security model
-//		options.addArguments("--no-sandbox"); // Bypass OS security model
-//		options.addArguments("--disable-dev-shm-usages"); // Bypass OS security model
-//		options.addArguments("--window-size=1024,768"); // Bypass OS security model
-//		options.addArguments("--remote-debugging-address=0.0.0.0"); // Bypass OS security model
-//		options.addArguments("--remote-debugging-port=9222"); // Bypass OS security model
+		options.addArguments("--disable-background-networking"); // Bypass OS security model
+		options.addArguments("--disable-background-timer-throttling"); // Bypass OS security model
+		options.addArguments("--disable-client-side-phishing-detection"); // Bypass OS security model
+		options.addArguments("--disable-default-apps"); // Bypass OS security model
+		options.addArguments("--disable-extensions"); // Bypass OS security model
+		options.addArguments("--disable-hang-monitor"); // Bypass OS security model
+		options.addArguments("--disable-popup-blocking"); // Bypass OS security model
+		options.addArguments("--disable-prompt-on-repost"); // Bypass OS security model
+		options.addArguments("--disable-sync"); // Bypass OS security model
+		options.addArguments("--disable-translate"); // Bypass OS security model
+		options.addArguments("--metrics-recording-only"); // Bypass OS security model
+		options.addArguments("--no-first-run"); // Bypass OS security model
+		options.addArguments("--remote-debugging-port=0"); // Bypass OS security model
+		options.addArguments("--safebrowsing-disable-auto-update"); // Bypass OS security model
+		options.addArguments("--enable-automation"); // Bypass OS security model
+		options.addArguments("--password-store=basic"); // Bypass OS security model
+		options.addArguments("--use-mock-keychain"); // Bypass OS security model
+		options.addArguments("--disable-gpu"); // Bypass OS security model
+		options.addArguments("--headless"); // Bypass OS security model
+		options.addArguments("--hide-scrollbars"); // Bypass OS security model
+		options.addArguments("--mute-audio"); // Bypass OS security model
+		options.addArguments("--no-sandbox"); // Bypass OS security model
+		options.addArguments("--disable-dev-shm-usages"); // Bypass OS security model
+		options.addArguments("--window-size=1024,768"); // Bypass OS security model
+		options.addArguments("--remote-debugging-address=0.0.0.0"); // Bypass OS security model
+		options.addArguments("--remote-debugging-port=9222"); // Bypass OS security model
 
 
 		prefs.put("profile.default_content_setting_values.notifications", 1);

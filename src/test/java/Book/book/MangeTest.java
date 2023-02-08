@@ -57,6 +57,7 @@ public class MangeTest {
 		driver.findElement(By.name("email")).sendKeys("vishwas.panke@selftech.in");
 		driver.findElement(By.name("password")).sendKeys("12345678");
 		driver.findElement(By.xpath("(//div[@class=\"col-lg-12 col-md-12\"])[3]/div/button")).click();
+		Thread.sleep(2000);
 		driver.findElement(By.id("page-header-user-dropdown")).click();
 		driver.findElement(By.xpath("//div[@class=\"dropdown-menu dropdown-menu-end show\"]/a")).click();
 		driver.findElement(By.xpath("//div[@class=\"card\"]/div/ul/li[2]/a")).click();
@@ -76,8 +77,8 @@ public class MangeTest {
 		driver.findElement(By.name("name")).sendKeys("Demo");
 		driver.findElement(By.id("message")).sendKeys("20% offer on each product");
 
-		WebElement upload_file = driver.findElement(By.id("image"));
-		upload_file.sendKeys("C:\\Users\\AVITA\\Desktop\\Image\\download (2).jpg");
+//		WebElement upload_file = driver.findElement(By.id("image"));
+//		upload_file.sendKeys("C:\\Users\\AVITA\\Desktop\\Image\\download (2).jpg");
 
 		driver.findElement(By.xpath("(//div[@class=\"modal-footer\"])/button[2]")).click();
 		driver.close();

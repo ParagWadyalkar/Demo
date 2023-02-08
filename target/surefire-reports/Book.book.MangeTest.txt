@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: Book.book.MangeTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.066 s <<< FAILURE! - in Book.book.MangeTest
-run(Book.book.MangeTest)  Time elapsed: 5.395 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=109.0.5414.120)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.956 s <<< FAILURE! - in Book.book.MangeTest
+run(Book.book.MangeTest)  Time elapsed: 11.353 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (1407, 35)
+  (Session info: headless chrome=109.0.5414.120)
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'SELFTECH-027', ip: '192.168.0.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [df3831c6747332d9cc02e6210ba1a624, findElement {using=name, value=email}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:58639}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58639/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: df3831c6747332d9cc02e6210ba1a624
-	at Book.book.MangeTest.run(MangeTest.java:75)
+Command: [0ea28d9ef58da80d8ca3d3af23b84801, clickElement {id=2930c123-4f4f-40a9-9e85-92ad6fac5341}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59098/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0ea28d9ef58da80d8ca3d3af23b84801)] -> id: page-header-user-dropdown]
+Session ID: 0ea28d9ef58da80d8ca3d3af23b84801
+	at Book.book.MangeTest.run(MangeTest.java:55)
 

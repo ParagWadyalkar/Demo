@@ -18,7 +18,11 @@ public class MangeTest {
 	public void run() throws InterruptedException {
 	
 //	public static void main(String[] args) throws InterruptedException {
+
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+		WebDriver driver = new ChromeDriver(options);
 		Map<String, Object> prefs = new HashMap<>();
 		options.setExperimentalOption("useAutomationExtension", false);
 		options.addArguments("--crash-dumps-dir=/tmp");
@@ -28,19 +32,16 @@ public class MangeTest {
 		options.addArguments("--disable-extensions"); // disabling extensions
 		options.addArguments("--disable-gpu"); // applicable to windows os only
 		options.addArguments("--no-sandbox"); // Bypass OS security model
-		options.addArguments("--headless");
-
-
+		
 
 		prefs.put("profile.default_content_setting_values.notifications", 1);
 		// 1-Allow, 2-Block, 0-default
 		options.setExperimentalOption("prefs", prefs);
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
-		options.setBinary("/usr/bin/chromedriver");
+//		options.setBinary("/usr/bin/chromedriver");
 //		WebDriverManager.chromedriver().setup();
 //		System.setProperty("webdriver.chrome.driver", "D:\\ed\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver(options);
-
+		
+		
 //		/usr/bin/google-chrome  /usr/share/man/man1/google-chrome.1.gz
 //		System.setProperty("webdriver.chrome.driver", "D:\\ed\\chromedriver_win32\\chromedriver.exe");
 		// System.setProperty("webdriver.chrome.driver",

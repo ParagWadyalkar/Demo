@@ -20,14 +20,15 @@ public class MangeTest {
 //	public static void main(String[] args) throws InterruptedException {
 		ChromeOptions options = new ChromeOptions();
 		Map<String, Object> prefs = new HashMap<>();
-//		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
-//		options.addArguments("start-maximized"); // open Browser in maximized mode
-//		options.addArguments("disable-infobars"); // disabling infobars
-//		options.addArguments("--disable-extensions"); // disabling extensions
-//		options.addArguments("--disable-gpu"); // applicable to windows os only
-//		options.addArguments("--no-sandbox"); // Bypass OS security model
-
-		
+		options.setExperimentalOption("useAutomationExtension", false);
+		options.addArguments("--crash-dumps-dir=/tmp");
+		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
+		options.addArguments("start-maximized"); // open Browser in maximized mode
+		options.addArguments("disable-infobars"); // disabling infobars
+		options.addArguments("--disable-extensions"); // disabling extensions
+		options.addArguments("--disable-gpu"); // applicable to windows os only
+		options.addArguments("--no-sandbox"); // Bypass OS security model
+		options.addArguments("--headless");
 		//add commits stackover
 //		options.addArguments("--disable-background-networking"); // Bypass OS security model
 //		options.addArguments("--disable-background-timer-throttling"); // Bypass OS security model

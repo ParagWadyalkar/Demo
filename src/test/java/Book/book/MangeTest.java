@@ -27,6 +27,8 @@ public class MangeTest {
 //		options.addArguments("--disable-gpu"); // applicable to windows os only
 //		options.addArguments("--no-sandbox"); // Bypass OS security model
 
+		
+		//add commit
 //		options.addArguments("--disable-background-networking"); // Bypass OS security model
 //		options.addArguments("--disable-background-timer-throttling"); // Bypass OS security model
 //		options.addArguments("--disable-client-side-phishing-detection"); // Bypass OS security model

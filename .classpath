@@ -19,5 +19,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/AVITA/Downloads/webdrivermanager-5.3.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -18,16 +18,16 @@ public class MangeTest {
 //	public static void main(String[] args) throws InterruptedException {
 		ChromeOptions options = new ChromeOptions();
 		Map<String, Object> prefs = new HashMap<>();
-		prefs.put("profile.default_content_setting_values.notifications", 1);
-		// 1-Allow, 2-Block, 0-default
-		options.setExperimentalOption("prefs", prefs);
-
+		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
 		options.addArguments("start-maximized"); // open Browser in maximized mode
 		options.addArguments("disable-infobars"); // disabling infobars
 		options.addArguments("--disable-extensions"); // disabling extensions
 		options.addArguments("--disable-gpu"); // applicable to windows os only
-		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
 		options.addArguments("--no-sandbox"); // Bypass OS security model
+		prefs.put("profile.default_content_setting_values.notifications", 1);
+		// 1-Allow, 2-Block, 0-default
+		options.setExperimentalOption("prefs", prefs);
+
 		WebDriver driver = new ChromeDriver(options);
 		WebDriverManager.chromedriver().setup();
 //		/usr/bin/google-chrome  /usr/share/man/man1/google-chrome.1.gz

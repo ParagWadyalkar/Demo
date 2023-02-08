@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="11394" started-at="2023-02-08T11:31:46Z" finished-at="2023-02-08T11:31:57Z">
+  <suite name="Surefire suite" duration-ms="10294" started-at="2023-02-08T12:47:05Z" finished-at="2023-02-08T12:47:16Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="11394" started-at="2023-02-08T11:31:46Z" finished-at="2023-02-08T11:31:57Z">
+    <test name="Surefire test" duration-ms="10294" started-at="2023-02-08T12:47:05Z" finished-at="2023-02-08T12:47:16Z">
       <class name="Book.book.MangeTest">
-        <test-method status="FAIL" signature="run()[pri:0, instance:Book.book.MangeTest@548b7f67]" name="run" duration-ms="11337" started-at="2023-02-08T11:31:46Z" finished-at="2023-02-08T11:31:57Z">
+        <test-method status="FAIL" signature="run()[pri:0, instance:Book.book.MangeTest@548b7f67]" name="run" duration-ms="10263" started-at="2023-02-08T12:47:05Z" finished-at="2023-02-08T12:47:16Z">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element is not clickable at point (1407, 35)
@@ -15,10 +15,10 @@
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'SELFTECH-027', ip: '192.168.0.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0ea28d9ef58da80d8ca3d3af23b84801, clickElement {id=2930c123-4f4f-40a9-9e85-92ad6fac5341}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59098/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0ea28d9ef58da80d8ca3d3af23b84801)] -> id: page-header-user-dropdown]
-Session ID: 0ea28d9ef58da80d8ca3d3af23b84801]]>
+Command: [3f69681e813af94b0f249cb99afc1496, clickElement {id=33141102-1edb-4a53-a569-12cf7746dd1e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:50062}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50062/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3f69681e813af94b0f249cb99afc1496)] -> id: page-header-user-dropdown]
+Session ID: 3f69681e813af94b0f249cb99afc1496]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1407, 35)
@@ -26,10 +26,10 @@ Session ID: 0ea28d9ef58da80d8ca3d3af23b84801]]>
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'SELFTECH-027', ip: '192.168.0.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0ea28d9ef58da80d8ca3d3af23b84801, clickElement {id=2930c123-4f4f-40a9-9e85-92ad6fac5341}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59098}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59098/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0ea28d9ef58da80d8ca3d3af23b84801)] -> id: page-header-user-dropdown]
-Session ID: 0ea28d9ef58da80d8ca3d3af23b84801
+Command: [3f69681e813af94b0f249cb99afc1496, clickElement {id=33141102-1edb-4a53-a569-12cf7746dd1e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:50062}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50062/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3f69681e813af94b0f249cb99afc1496)] -> id: page-header-user-dropdown]
+Session ID: 3f69681e813af94b0f249cb99afc1496
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -43,7 +43,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at Book.book.MangeTest.run(MangeTest.java:55)
+at Book.book.MangeTest.run(MangeTest.java:56)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -58,7 +58,7 @@ public class MangeTest {
 		driver.findElement(By.name("password")).sendKeys("12345678");
 		driver.findElement(By.xpath("(//div[@class=\"col-lg-12 col-md-12\"])[3]/div/button")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.id("page-header-user-dropdown")).click();
+		driver.findElement(By.xpath("//div[@class=\"dropdown d-inline-block\"]/button")).click();
 		driver.findElement(By.xpath("//div[@class=\"dropdown-menu dropdown-menu-end show\"]/a")).click();
 		driver.findElement(By.xpath("//div[@class=\"card\"]/div/ul/li[2]/a")).click();
 		driver.findElement(By.xpath("(//div[@class=\"row mb-3\"])[1]/div[2]/a")).click();

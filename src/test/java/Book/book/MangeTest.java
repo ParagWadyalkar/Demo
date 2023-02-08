@@ -28,13 +28,13 @@ public class MangeTest {
 		options.addArguments("--disable-gpu"); // applicable to windows os only
 		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
 		options.addArguments("--no-sandbox"); // Bypass OS security model
-		
+		WebDriver driver = new ChromeDriver(options);
 		WebDriverManager.chromedriver().setup();
 //		/usr/bin/google-chrome  /usr/share/man/man1/google-chrome.1.gz
 //		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		// System.setProperty("webdriver.chrome.driver",
 		// "D:\\ed\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver(options);
+		
 
 		driver.manage().window().maximize();
 		driver.get("https://dev.managemedias.com/login");

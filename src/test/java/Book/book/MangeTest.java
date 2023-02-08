@@ -18,8 +18,8 @@ public class MangeTest {
 	public void run() throws InterruptedException {
 	
 //	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "D:\\ed\\chromedriver_win32\\chromedriver.exe");
-//		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+//		System.setProperty("webdriver.chrome.driver", "D:\\ed\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(options);

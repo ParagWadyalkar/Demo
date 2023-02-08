@@ -21,9 +21,9 @@ public class MangeTest {
 		prefs.put("profile.default_content_setting_values.notifications", 1);
 		// 1-Allow, 2-Block, 0-default
 		options.setExperimentalOption("prefs", prefs);
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
 //		/usr/bin/google-chrome  /usr/share/man/man1/google-chrome.1.gz
-	//	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		// System.setProperty("webdriver.chrome.driver",
 		// "D:\\ed\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver(options);
